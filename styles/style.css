@@ -1,3 +1,16 @@
+/* sheared style */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+* {
+   font-family: 'Lato', sans-serif;
+}
+
+.section {
+    margin: 20px 200px;
+    height: 100vh;
+    padding: 50px 0;
+}
+
 .btn-primary {
     border-radius: 10px;
     background: #E55473;
@@ -6,6 +19,14 @@
     color: white;
     font-weight: 700;
     padding: 20px 40px;
+}
+
+.section-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 300px;
+    padding-right: 300px;
 }
 
 /* Header style */
@@ -41,6 +62,7 @@
 }
 
 /* Featured section style */
+
 .section-title,
 .section-description {
     text-align: center;
@@ -53,43 +75,45 @@
     padding-top: 50px;
 }
 
-.section-description {
-    color: rgba(39, 39, 39, 0.60);
-    font-size: 15px;
-    font-weight: 400;
-    padding-left: 300px;
-    padding-right: 300px;
-}
+
 
 .featured-image-container {
     display: flex;
-    gap: 24px;
-    align-items: center;
+    margin-top: 45px;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.featured-image {
+    height: 300px;
+    width: 200px;
+    padding: 75px 50px 0 50px;
+
 }
 
 .featured-img1 {
-    border-radius: 300px 300px 0px 0px;
     background: rgba(167, 33, 98, 0.15);
-    padding: 100px 75px 0px 75px;
+    border-radius: 300px 300px 0px 0px;
+
 }
 
 .featured-img2 {
-    border-radius: 300px 300px 0px 0px;
     background: rgba(5, 151, 160, 0.15);
-    padding: 110px 45px 50px 45px;
+    border-radius: 300px 300px 0px 0px;
 }
 
 .featured-img3 {
-    border-radius: 300px 300px 0px 0px;
     background: rgba(71, 125, 17, 0.15);
-    padding: 62px 75px 0 75px;
+    border-radius: 300px 300px 0px 0px;
 }
 
-.featured-cta {
-    display: flex;
-    justify-content: space-between;
-    border-radius: 8px;
-    background: rgba(39, 39, 39, 0.05);
-    padding: 0 400px 0 400px;
+figcaption {
+    color: #272727;
+    background-color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration-line: underline;
+    padding-top: 30px;
 }
 
