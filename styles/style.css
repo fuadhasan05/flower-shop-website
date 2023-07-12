@@ -7,7 +7,7 @@
 
 .section {
     margin: 20px 200px;
-    height: 100vh;
+    height: 600px;
     padding: 50px 0;
 }
 
@@ -72,14 +72,11 @@
     color: #272727;
     font-size: 40px;
     font-weight: 600;
-    padding-top: 50px;
 }
-
-
 
 .featured-image-container {
     display: flex;
-    margin-top: 45px;
+    margin-top: 20px;
     justify-content: space-between;
     gap: 20px;
 }
@@ -115,5 +112,20 @@ figcaption {
     font-weight: 700;
     text-decoration-line: underline;
     padding-top: 30px;
+}
+
+/* optional section */
+.optional-container {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    padding: 80px 200px;
+}
+
+.opt-description {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 15px;
 }
 
