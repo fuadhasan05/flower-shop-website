@@ -206,13 +206,14 @@ figcaption {
 }
 
 .top-selling-image {
+    background: rgba(5, 151, 160, 0.15);
     display: flex;
     gap: 24px;
     justify-content: space-between;
+    padding-top: 50px;
 }
 
 .top-selling {
-    background: rgba(5, 151, 160, 0.15);
     padding-top: 20px;
     margin: 20px 200px;
 }
