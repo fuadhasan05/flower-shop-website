@@ -8,7 +8,7 @@
 .section {
     margin: 20px 200px;
     height: 600px;
-    padding: 50px 0;
+    padding: 50px;
 }
 
 .btn-primary {
@@ -25,8 +25,7 @@
     color: rgba(39, 39, 39, 0.60);
     font-size: 14px;
     font-weight: 400;
-    padding-left: 300px;
-    padding-right: 300px;
+    padding: 0 250px 20px 250px;
 }
 
 /* Header style */
@@ -127,5 +126,35 @@ figcaption {
 .opt-description {
     color: rgba(39, 39, 39, 0.80);
     font-size: 15px;
+}
+
+/* offer section */
+.offer-container {
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.offer {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.offer-title {
+    gap: 24px;
+}
+
+.about-offer {
+    padding-top: 100px;
+}
+
+.offer-image {
+    padding-right: 200px;
+}
+
+.color-primary {
+    color: #E55473;
 }
 
