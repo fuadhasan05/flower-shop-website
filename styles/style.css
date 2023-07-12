@@ -175,3 +175,22 @@ figcaption {
     height: 280px;
     gap: 24px;
 }
+
+/* latest deal section */
+.latest-deal-section {
+    background: url(../flower-asset/Rectangle\ 9.png);
+    background-position: right;
+    text-align: center;
+    padding: 50px 0 50px 0;
+    margin: 0 200px 0 200px;
+    border-radius: 5px;
+}
+
+.email-box {
+    background: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 20px 40px;
+    width: 450px;
+    height: 20px;  
+}
