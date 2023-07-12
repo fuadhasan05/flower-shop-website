@@ -196,7 +196,25 @@ figcaption {
     font-weight: 400;
     padding: 20px 40px;
     width: 450px;
-    height: 20px;  
+    height: 20px;
+}
+
+/* Top Flower */
+.top-image {
+    height: 300px;
+    width: 200px;
+}
+
+.top-selling-image {
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.top-selling {
+    padding-top: 50px;
+    margin: 20px 200px;
 }
 
 /* footer-section */
