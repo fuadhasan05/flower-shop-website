@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
 
 * {
-   font-family: 'Lato', sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 .section {
@@ -158,3 +158,20 @@ figcaption {
     color: #E55473;
 }
 
+/* Instagram section */
+.img-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.instagram-section {
+    margin: 20px 200px;
+    height: 600px;
+    padding: 0 0;
+}
+
+.img-container {
+    width: 230px;
+    height: 280px;
+    gap: 24px;
+}
